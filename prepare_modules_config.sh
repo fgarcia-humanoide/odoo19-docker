@@ -11,7 +11,7 @@ cp -r /root/odoo19-docker/login_user_detail /data/compose/1/addons/otros/ 2>/dev
 cp -r /root/odoo19-docker/supermodulo18 /data/compose/1/addons/otros/ 2>/dev/null || true
 
 echo "📄 Copiando scripts y ficheros de configuración..."
-cp /root/odoo19-docker/modules_install_18.txt /data/compose/1/addons/ 2>/dev/null || true
+cp /root/odoo19-docker/modules_install_19.sh /data/compose/1/addons/ 2>/dev/null || true
 cp /root/odoo19-docker/requirements_oca.sh /data/compose/1/addons/ 2>/dev/null || true
 cp /root/odoo19-docker/update_oca.sh /data/compose/1/addons/ 2>/dev/null || true
 
